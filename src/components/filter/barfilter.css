@@ -1,0 +1,186 @@
+.bar-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 4px;
+    height: 64px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.12);
+}
+
+.io-filter {
+    padding: 12px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.io-filter:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 50%;
+}
+
+.sl-options-vertical {
+    padding: 12px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sl-options-vertical:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 50%; 
+}
+
+.active-filter {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.active-button {
+    color: rgba(0, 0, 0, 0.87);
+    border: none;
+    height: 32px;
+    padding: 5px;
+    margin-right: 5px;
+    display: inline-flex;
+    outline: 0;
+    font-size: 0.8125rem;
+    box-sizing: border-box;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    align-items: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    white-space: nowrap;
+    border-radius: 16px;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color: #e0e0e0;
+
+}
+.active-filter button:hover {
+    background-color: #cacaca; 
+}
+
+.checkmark {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 7px;
+    stroke-width: 2;
+    stroke: rgba(0, 0, 0, 0.87);
+    margin-bottom: 8px;
+  }
+
+.md-outline-cancel {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-left: 7px;
+}
+
+.page-pagination {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    height: 56px;
+    min-height: 56px;
+    padding-right: 2px; 
+}
+
+.MuiTablePagination-selectRoot {
+    color: rgba(0, 0, 0, 0.54);
+    margin-left: 8px;
+    margin-right: 32px;
+    font-size: 0.75rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.66;
+    letter-spacing: 0.03333em;
+}
+
+.pagination label {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 0.75rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.66;
+    letter-spacing: 0.03333em;
+}
+
+.pagination select {
+    color: rgba(0, 0, 0, 0.54);
+    margin-left: 8px;
+    margin-right: 32px;
+    border: 0px;
+}
+
+.pagination-button {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    color: #fff;
+    border: #fff;
+    background-color: #fff;
+}
+
+.pagination-button:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.pagination-arrow {
+    color: rgba(0, 0, 0, 0.34);
+    font-size: 18px;
+}
+
+.date-filter-results {
+    display: flex;
+    padding: 0px 8px;
+}
+
+.io-arrow-forward {
+    color: rgba(0, 0, 0, 0.34);
+    font-size: 18px;
+    
+}
+.filter-results {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin-right: 12px;
+}
+
+.filter-results:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.jss111 {
+    padding: 0px 16px;
+}
+
+.calender {
+    padding: 0px 16px;
+    display: flex;
+}
+
+.MuiFormControl-root{
+    margin-top: 16px;
+    margin-bottom: 8px;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+    margin-right: 8px;
+}
+
+.MuiFormControl-root:hover {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.82);
+    color:rgba(0, 0, 0, 0.82) ;
+}

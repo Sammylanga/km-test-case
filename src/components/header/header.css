@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px;
+    position: relative;
+    color: #fff;
+    background-color: #3f51b5;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.875rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    min-height: 64px;
+    letter-spacing: 0.01071em;
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+.jss76 {
+    width: auto;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.jss77 {
+    width: 56px;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+    justify-content: center;
+    
+}
+
+
+.jss76 input {
+    width: 120px;
+    padding: 8px 8px 8px 1px;
+    background-color: rgba(255, 255, 255, 0);
+    border: rgba(255, 255, 255, 0.15);
+    transition: width 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+  
+  .jss76 input::placeholder {
+    font-family: 'Arial', sans-serif; 
+    font-size: 15px; 
+    color: rgba(255, 255, 255, 0.67);
+  }
+
+  .jss76 input:focus {
+    width: 200px;
+    outline: none;
+    border-color: rgba(255, 255, 255, 0.15);
+    color: #fff ;
+  }
+
+  h6 {
+    font-size: 20px;
+    margin: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 550;
+  }
+  
