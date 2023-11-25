@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/km-test-case/static/css/main.1abc4c79.css",
+    "main.js": "/km-test-case/static/js/main.40fc8d4e.js",
+    "static/js/787.67c73fc7.chunk.js": "/km-test-case/static/js/787.67c73fc7.chunk.js",
+    "index.html": "/km-test-case/index.html",
+    "main.1abc4c79.css.map": "/km-test-case/static/css/main.1abc4c79.css.map",
+    "main.40fc8d4e.js.map": "/km-test-case/static/js/main.40fc8d4e.js.map",
+    "787.67c73fc7.chunk.js.map": "/km-test-case/static/js/787.67c73fc7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1abc4c79.css",
+    "static/js/main.40fc8d4e.js"
+  ]
+}
